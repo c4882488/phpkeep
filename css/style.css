@@ -1,0 +1,76 @@
+
+.title{
+    background-color: rgb(236, 162, 34);
+    font-size: 30px;
+    position: fixed;
+}
+.color{
+    background-color: rgb(236, 162, 34);
+}
+.logo{
+    font-size: 30px;
+    margin-left: 15px;
+}
+.href div{
+    float: left;
+    margin-left: 10px;
+}
+.icon a i{
+    position: fixed;
+}
+.icon a{
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    transition: background-color .5s;
+}
+.icon a:hover{
+    transition: background-color .5s;
+    background-color: rgba(255, 255, 255, 0.301);
+    cursor: pointer;
+}
+
+
+.text{
+    display: inline-block;
+    height: 50px;
+    font-size: 18px;
+}
+.text a{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: #fff 1px solid;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    transition: background-color .3s;
+}
+.text a:hover{
+    background-color: rgb(212, 145, 28);
+    transition: background-color .3s;
+    cursor: pointer;
+}
+.sign{
+    padding: 10px;
+    width: 30%;
+    margin: 0px auto;
+}
+.body{
+    height: calc(100vh - 71px);
+    background-color: #F8FAFB;
+}
+a{
+    cursor: pointer;
+}
+#toast{
+    position:fixed;
+    z-index: 3;
+    bottom: 30px;
+    left: 50px;
+}
+

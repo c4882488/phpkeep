@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body class="bg-light">
+        <nav class="site-header sticky-top">
+            <div class="navbar navbar-dark shadow-sm title">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand d-flex align-items-center">
+                        <i class='fas fa-clipboard-list logo'></i>
+                        <b class="logo">Keep</b>
+                    </a>
+
+                    <div class="collapsed navbar-dark href" id="href">
+                        <div class="text">
+                            <a class="text-white" id="login">Log in</a>
+                            <a class="text-white" id="signup">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div role="main" class="text-center body" id="body">
+            
+        </div>
+    
+    <div id="toast">
+        <div class="toast" id="toast-list" role="alert" data-delay="7000" style="width:350px;height:90px;" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-white" id="toase_bg">
+                <i class="fas fa-exclamation-triangle "></i>
+                <strong class="mr-auto" id="toast_title">　Warning</strong>
+                <small class="text-light">just now</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true" class="text-light">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body" id="toast_body">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal" data-backdrop="static" data-keyboard="false" id="load" tabindex="-1" role="dialog" aria-labelledby="loadTitle"  aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="loadTitle">
+                        <i class="fas fa-sync-alt fa-spin"></i>　Load....
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="javascript/jquery.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+</html>
